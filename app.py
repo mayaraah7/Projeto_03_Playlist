@@ -1,15 +1,18 @@
 import streamlit as st
 
 # Nome da pasta que você quer criar
-generos = ["Kpop", "Pop", "Eletrónica", "Hip Hop/Rap", "Funk", "MPB", "Sertanejo"]
+generos = ["Kpop", "Pop", "Hip Hop/Rap", "Trap", "Funk", "Eletronica", "MPB", "Sertanejo"]
 
 # Dicionário relacionando gêneros a musicais
 musicas_por_generos = { 
     "Kpop": ["BTS", "Aespa", "Blackpink", "Stray Kids", "BabyMonster", "Le Sserafim", "Enhypen", "NewJeans", "Kiss of Life"],
-    "Pop": ["The Weeknd", "Lana del rey", "Ariana Grande", "", "", "", "", ""],
-    "Fantasia": ["O Senhor dos Anéis", "Harry Potter", "As Crônicas de Nárnia"],
-    "Terror": ["It: A Coisa", "O Iluminado", "Drácula"],
-    "Terror": ["It: A Coisa", "O Iluminado", "Drácula"],
+    "Pop": ["The Weeknd", "Lana del rey", "Ariana Grande", "Taylor Swift", "Billie Eilish", "Dua Lipa", "Katy Perry","Fifth Harmony",],
+    "Hip Hop/Rap": ["Eminem", "50 Cent", "2pac", "B2K", "Rihanna", "Beyonce", "Bow Wow", "Ciara", "Paula deanda", "Mariah Carey", "Cassie"],
+    "Trap": ["Veigh", "Yunk Vino","Kendrick Lamar", "A$AP Rocky"],
+    "Funk": ["Kevin", "Livinho", "Kevinho", "Jerry Smith"],
+    "Eletronica": ["SNOW STRIPPERS", "CHRYSTAL"],
+    "MPB": ["Legião Urbana", "Ari", "Acústico 1Kilo"]
+    
 
 
 }               
