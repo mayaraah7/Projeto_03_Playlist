@@ -12,7 +12,7 @@ musicas_por_generos = {
     "Funk": ["Kevin", "Livinho", "Kevinho", "Jerry Smith"],
     "Eletronica": ["SNOW STRIPPERS", "CHRYSTAL"],
     "MPB": ["Legião Urbana", "Ari", "Acústico 1Kilo"],
-    "Sertanejo": ["Marília Mendonça", "Cristiano Araújo", "Luan Sanatana"]
+    "Sertanejo": ["Marília Mendonça", "Cristiano Araújo", "Luan Santana"]
 
 
 
@@ -34,6 +34,7 @@ if genero_selecionado and musica_selecionada:
     st.write(f"**Artista Selecionado:** {musica_selecionada}")
     st.write(f"**Gênero:** {genero_selecionado}")
     st.image(f"{musica_selecionada}.png")
+
 
 
 
