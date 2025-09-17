@@ -5,14 +5,15 @@ generos = ["Kpop", "Pop", "Hip Hop/Rap", "Trap", "Funk", "Eletronica", "MPB", "S
 
 # Dicionário relacionando gêneros a musicais
 musicas_por_generos = { 
-    "Kpop": ["BTS", "Aespa", "Blackpink", "Stray Kids", "BabyMonster", "Le Sserafim", "Enhypen", "NewJeans", "Kiss of Life"],
-    "Pop": ["The Weeknd", "Lana del rey", "Ariana Grande", "Taylor Swift", "Billie Eilish", "Dua Lipa", "Katy Perry","Fifth Harmony",],
-    "Hip Hop/Rap": ["Eminem", "50 Cent", "2pac", "B2K", "Rihanna", "Beyonce", "Bow Wow", "Ciara", "Paula deanda", "Mariah Carey", "Cassie"],
+    "Kpop": ["BTS", "Aespa", "Blackpink", "Stray Kids", "BabyMonster", "Le Sserafim", "Enhypen"],
+    "Pop": ["The Weeknd", "Lana del rey", "Ariana Grande", "Taylor Swift", "Billie Eilish", "Fifth Harmony", "Dua Lipa"],
+    "Hip Hop/Rap": ["Eminem", "50 Cent", "B2K", "Rihanna", "Beyonce", "Ciara", "Cassie"],
     "Trap": ["Veigh", "Yunk Vino","Kendrick Lamar", "A$AP Rocky"],
     "Funk": ["Kevin", "Livinho", "Kevinho", "Jerry Smith"],
     "Eletronica": ["SNOW STRIPPERS", "CHRYSTAL"],
-    "MPB": ["Legião Urbana", "Ari", "Acústico 1Kilo"]
-    
+    "MPB": ["Legião Urbana", "Ari", "Acústico 1Kilo"],
+    "Sertanejo": ["Marília Mendonça", "Cristiano Araújo", "Luan Sanatana"]
+
 
 
 }               
